@@ -2,18 +2,22 @@
   "name": "kk-payment-alipay",
   "version": "0.1.0",
   "description": "kk-payment-alipay",
+  "private" : false,
   "main": "index.js",
   "scripts": {
     "test": "node ./test.js"    
   },
-  "repository": "",
+  "repository": {
+      "type" : "git",
+      "url" : "https://github.com/huangqingcheng/kk-payment-alipay.git"
+  },
   "keywords": [
     "Node.js",
-    "Eclipse",
-    "Nodeclipse"
+    "payment",
+    "alipay"
   ],
-  "author": "Neil <qingcheng.huang@chukong-inc.com>",
-  "license": "BSD",
+  "author": "yunjing <hqc2010@gmail.com>",
+  "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies" : {
       "xmldom" : "latest"
