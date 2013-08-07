@@ -1,0 +1,21 @@
+{
+  "name": "kk-payment-alipay",
+  "version": "0.1.0",
+  "description": "kk-payment-alipay",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"    
+  },
+  "repository": "",
+  "keywords": [
+    "Node.js",
+    "Eclipse",
+    "Nodeclipse"
+  ],
+  "author": "Neil <qingcheng.huang@chukong-inc.com>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies" : {
+      "xmldom" : "latest"
+  }   
+}
