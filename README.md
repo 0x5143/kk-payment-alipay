@@ -1,19 +1,19 @@
-֧�����������֤ģ�� - Node.js�汾
+支付宝服务端验证模块 - Node.js版本
 ================
 
 ## Installation
-��ͨ��npmֱ�Ӱ�װ��
+可通过npm直接安装：
 
 `npm install kk-payment-coco`
 
 
 ## Overview
-��ģ�����ڿ��ٴ�Լ���֧����֤�����������֧������֧��ƽ̨��֤���̡�
-Ŀǰ���ڲ����ڣ�����ʵ����Ŀ�������
+此模块用于快速搭建自己的支付验证服务器，针对支付宝的支付平台验证流程。
+目前处于测试期，用于实际项目请谨慎。
 
 ## Usage
-(1) ��д�����ļ�: �ο�alipay.example.json�ļ�;
-(2) ʹ�����´������֪ͨ��֤: 
+(1) 填写配置文件: 参考alipay.example.json文件;
+(2) 使用以下代码进行通知验证: 
     
     var conf = require('alipay.json');
     var Alipay = require('kk-payment-alipay');
@@ -28,14 +28,14 @@
         }
     );
 
-����, doOrderNotifyVerify��������������
-��һ������ΪԶ��֧��ƽ̨����IP��ַ��
-�ڶ�������ΪԶ��֧��ƽ̨������������(POST��GET)��
-����������ΪУ����ɻص�������
+其中, doOrderNotifyVerify接收三个参数：
+第一个参数为远程支付平台主机IP地址；
+第二个参数为远程支付平台发过来的数据(POST或GET)；
+第三个参数为校验完成回调函数；
 
 ## LICENSE - "MIT License"
 
-Copyright (c) 2013 �ƾ�, http://yunjing.me/
+Copyright (c) 2013 云景, http://yunjing.me/
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
@@ -57,5 +57,3 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
-
-![spacer](http://yunjing.me/1px.gif)
