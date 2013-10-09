@@ -4,7 +4,7 @@
 ## Installation
 可通过npm直接安装：
 
-`npm install kk-payment-coco`
+`npm install kk-payment-alipay`
 
 
 ## Overview
