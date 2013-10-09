@@ -1,5 +1,6 @@
 {
     partner : '2088xxxxxxxxxxxx',
     secret : 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
-    seller_email : 'hqc2010@gmail.com'
+    seller_email : 'hqc2010@gmail.com',
+    debug : false
 }
