@@ -1,6 +1,7 @@
 {
-    partner : '2088xxxxxxxxxxxx',
-    secret : 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
-    seller_email : 'hqc2010@gmail.com',
-    debug : false
+    "partner" : "2088xxxxxxxxxxxx",
+    "seller_email" : "hqc2010@gmail.com",
+    "alipay_public_key" : "/home/neil/pm-project/payment/cfg/alipay.public.pem",
+    "partner_private_key" : "/home/neil/pm-project/payment/cfg/alipay.private.pem",
+    "notify_url" : "http://127.0.0.1:20420/alipay/notify"
 }
